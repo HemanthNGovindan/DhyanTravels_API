@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PageContents>
+	<!--Routes-->
+	<PageContent id='LinkItems' Type='Array'>
+		<Content LinkName='Home' Link='/Home' Active='false'/>
+		<Content LinkName='Cabs' Link='/Cabs' Active='true'/>
+		<Content LinkName='About' Link='/AboutUs' Active='false'/>
+		<Content LinkName='Contact' Link='/ContactUs' Active='false'/>
+	</PageContent>
+
+	<!--Cab Slides-->
+	<!-- <PageContent id="cab_slides" Type='Array'>
+		<Content HeaderText="One" DescriptionText="Decsription about image One" ImgURL="../assets/img/car/1.jpg" ImageIndex="TOUR_1" Active="true"/>
+		<Content HeaderText="Two" DescriptionText="Decsription about image Two" ImgURL="../assets/img/car/2.jpg" ImageIndex="TOUR_2" Active="false"/>
+		<Content HeaderText="Three" DescriptionText="Decsription about image Three" ImgURL="../assets/img/car/3.jpg" ImageIndex="TOUR_3" Active="false"/>
+		<Content HeaderText="Four" DescriptionText="Decsription about image Four" ImgURL="../assets/img/car/4.jpg" ImageIndex="TOUR_4" Active="false"/>
+	</PageContent> -->
+
+	<PageContent id="One_slides" Type='Array'>
+		<Content HeaderText="<b>HAMPI</b>, Stone Chariot" DescriptionText="UNESCO World Heritage Site, will take one to good old golden days." ImgURL="../assets/img/slide1/1.jpg" ImageIndex="TOUR_1" Active="true"/>
+		<Content HeaderText="<b>Aihole</b>, 4th Century Monument" DescriptionText="Well known archeological site near to other ASI sites Pattadakal and Badami" ImgURL="../assets/img/slide1/2.jpg" ImageIndex="TOUR_2" Active="false"/>
+		<Content HeaderText="<b>Karwar</b>, Enjoy the peacefull beach walk " DescriptionText="Third largest naval base near to Goa and Dandeli" ImgURL="../assets/img/slide1/3.jpg" ImageIndex="TOUR_3" Active="false"/>
+		<Content HeaderText="<b>Kodachadri</b>, 10th Highest Peak Of Karnataka" DescriptionText="Experience the dense forest trek, offroad jeep ride and river rafting" ImgURL="../assets/img/slide1/4.jpg" ImageIndex="TOUR_4" Active="false"/>
+	</PageContent>
+		<PageContent id="Two_slides" Type='Array'>
+		<Content HeaderText="<b>Kudremukha</b>, 3rd Highest Peak Of Karnataka" DescriptionText="Kudremukh National Park is well known for it's flora and fauna" ImgURL="../assets/img/slide2/1.jpg" ImageIndex="TOUR_1" Active="true"/>
+		<Content HeaderText="<b>Bagalkot</b>, 4th Century Monument" DescriptionText="Well known archeological site near to other ASI sites Pattadakal and Badami" ImgURL="../assets/img/slide2/2.jpg" ImageIndex="TOUR_2" Active="false"/>
+		<Content HeaderText="<b>Kambala</b>, Heritage of Kundapura" DescriptionText="We respect our culture and we want you to taste it" ImgURL="../assets/img/slide2/3.jpg" ImageIndex="TOUR_3" Active="false"/>
+		<Content HeaderText="<b>Melkote</b>, Rayagopura" DescriptionText="A historical monument with easy access from Mysore , Hassan or Shrirangpatna " ImgURL="../assets/img/slide2/4.jpg" ImageIndex="TOUR_4" Active="false"/>
+	</PageContent>
+
+	<PageContent id="Vehicles" Type='Array'>
+		<Content ID="TTIC" Title="Tata Indica" Type="Hachtback" SeatingCapacity="4" CostNAC="7.50" CostAC="8.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v1.jpg"  ShortDescription="Preferable for short strip - within 500-600Km" Active="true"/>
+		<Content ID="TTIG" Title="Tata Indigo" Type="Sedan" SeatingCapacity="4" CostNAC="8.50" CostAC="9.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v2.jpg"  ShortDescription="Preferable sedan for short strip considering boot space" Active="true"/>
+		<Content ID="MLGN" Title="Mahindra Logan" Type="Sedan" SeatingCapacity="4" CostNAC="8.50" CostAC="9.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v3.jpg"  ShortDescription="Preferable sedan for short strip considering boot space" Active="true"/>
+		<Content ID="MVRT" Title="Mahindra Verito" Type="Sedan" SeatingCapacity="4" CostNAC="8.50" CostAC="9.50" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v4.jpg"  ShortDescription="Preferable sedan for short strip considering boot space" Active="true"/>
+		<Content ID="MSSWDZ" Title="Swift Dzire" Type="Sedan" SeatingCapacity="4" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v5.jpg"  ShortDescription="A best sedan class for comfort travel and added comfort" Active="true"/>
+		<Content ID="TYTETS" Title="Toyota Etios" Type="Sedan" SeatingCapacity="4" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v6.jpg"  ShortDescription="A best sedan class for comfort travel and added comfort" Active="true"/>
+		<Content ID="CTTVR8" Title="Chevrolet Tavera - 8" Type="MUV" SeatingCapacity="8" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v7.jpg"  ShortDescription="Preferable for group of 7 to 8 people with comforts" Active="true"/>
+		<Content ID="CTTVR9" Title="Chevrolet Tavera - 9" Type="MUV" SeatingCapacity="9" CostNAC="10" CostAC="11" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v7.jpg"  ShortDescription="Preferable for group of 7 to 8 people with comforts" Active="true"/>
+		<Content ID="TYTINV" Title="Toyota Innova" Type="MUV" SeatingCapacity="9" CostNAC="NA" CostAC="13" MinDistancePerDay="250" DriverAllowance="250" ImgURL="../assets/img/vehicles/v8.jpg"  ShortDescription="A class multi utility vahicle for long trips and superior travel comforts" Active="true"/>
+		<Content ID="TTRV12" Title="Tempo Traveller - 12" Type="Commercial" SeatingCapacity="12" CostNAC="13" CostAC="15" MinDistancePerDay="300" DriverAllowance="300" ImgURL="../assets/img/vehicles/v9.jpg"  ShortDescription="Preferred for group travel of more than 10 people" Active="true"/>
+		<Content ID="TTRV13" Title="Tempo Traveller - 13" Type="Commercial" SeatingCapacity="13" CostNAC="13" CostAC="15" MinDistancePerDay="300" DriverAllowance="300" ImgURL="../assets/img/vehicles/v10.jpg"  ShortDescription="Preferred for group travel of more than 10 people" Active="true"/>
+		<Content ID="TTRV14" Title="Tempo Traveller - 14" Type="Commercial" SeatingCapacity="14" CostNAC="14" CostAC="16" MinDistancePerDay="300" DriverAllowance="300" ImgURL="../assets/img/vehicles/v11.jpg"  ShortDescription="Preferred for group travel of more than 10 people" Active="true"/>
+		<Content ID="MB18" Title="Mini Bus - 18" Type="Commercial" SeatingCapacity="18" CostNAC="20" CostAC="27" MinDistancePerDay="300" DriverAllowance="400" ImgURL="../assets/img/vehicles/v12.jpg"  ShortDescription="Commericial VEHICLEs for group travel with 15 plus passengers" Active="true"/>
+		<Content ID="MB20" Title="Mini Bus - 20" Type="Commercial" SeatingCapacity="20" CostNAC="20" CostAC="27" MinDistancePerDay="300" DriverAllowance="400" ImgURL="../assets/img/vehicles/v13.jpg"  ShortDescription="Commericial VEHICLEs for group travel with 18 plus passengers" Active="true"/>
+		<Content ID="MB32" Title="Mini Bus - 32" Type="Commercial" SeatingCapacity="32" CostNAC="30" CostAC="NA" MinDistancePerDay="300" DriverAllowance="800" ImgURL="../assets/img/vehicles/v14.jpg"  ShortDescription="Commericial VEHICLEs for group travel with 20 plus passengers" Active="true"/>
+		<Content ID="B49" Title="Bus - 49" Type="Commercial" SeatingCapacity="49" CostNAC="35" CostAC="NA" MinDistancePerDay="300" DriverAllowance="1000" ImgURL="../assets/img/vehicles/v15.jpg"  ShortDescription="A travel companion for larger people groups" Active="true"/>
+	</PageContent>
+
+	<PageContent id="PageText" Type='Object'>
+		<Content HeaderText="CampaignText" DescriptionText="Hurry and drop us a request, We would reach you back with attractive offers" />
+		<Content HeaderText="Copyright" DescriptionText="Copyright © [@CURRENTYEAR@] Dhyan Travels" />
+		<Content HeaderText="CabPageHeader" DescriptionText="Pick your cab" />
+		<Content HeaderText="AboutUsPageHeader" DescriptionText="About Us"/>
+		<Content HeaderText="AboutUsText" DescriptionText="We, Dhyan Travels, offer reliable travel solutions. We offer both taxi and tours. Vehicle of all capacities are available at both economy and luxury class. Booking “Dhyan” vehicles is just a click away. You can also just call us for easy booking. The fare calculation is simple and free from all hidden charges. Our highly professional drivers aim at offering safety and convenience throughout your journey. We accept all channels of payment may it be debit/credit cards, net banking or UPI. Booking and payments are confirmed through SMS with driver/vehicle details and payment details. Email based detailed invoices are also available. Quality check before every trip makes your journey hassle free. Despite having no compromise in services, our prices are highly competitive. All our effort is to make your journey a memorable one. Book our vehicles for personal, group and corporate travels to experience unconditional comfort." />
+		<Content HeaderText="TravelSolganText" DescriptionText="&quot; We drive your dreams with you &quot; &lt;br/&gt;&lt;span&gt; - Dhyan Travels &lt;/span&gt;"/>
+		<Content HeaderText="TourSloganText" DescriptionText="&quot; To travel is to take a journey into yourself &quot; &lt;br/&gt;&lt;span&gt; - Danny Kaye &lt;/span&gt;"/>
+		<Content HeaderText="ContactUsPageHeader" DescriptionText="Contact Us"/>
+		<Content HeaderText="ContactUsEmail" DescriptionText="Services@DhyanTravels.com" />
+		<Content HeaderText="ContactUsPhone" DescriptionText="+919980836494" />
+		<Content HeaderText="ContactUsPhoneDisplay" DescriptionText="+91-8861621665|+91-7204006145|+91-9886577736" />
+		<Content HeaderText="ContactUsFacebookPage" DescriptionText="Dhyan Travels" />
+		<Content HeaderText="ContactUsFacebookPageLink" DescriptionText="https://www.facebook.com/Dhyan-Travels-794198280598747"/>
+		
+		<Content HeaderText="ContactUsAssistText" DescriptionText="Help us to assist you" />
+		<Content HeaderText="TagLine" DescriptionText="We drive your dreams" />
+		<Content HeaderText="RequestServiceSuccessText" DescriptionText="Hey! [@FULLNAME@], Thanks <br/>  Your request is at out desk<br\> Keep this reference number <b> [@TRAVELREFERENVENUMBER@] </b> and  Will reach you soon.<br\> Thank You" />
+		<Content HeaderText="RequestServiceFailureText" DescriptionText="We failed to serve your request<br\> Could you please try after some time<br\> Thank You" />
+		<Content HeaderText="ConatctServiceSuccessText" DescriptionText="Hey! [@FULLNAME@], Thanks <br/>  We have recieved your contact request <br\> keep this reference number <b> [@TRAVELREFERENVENUMBER@] </b> and  Will reach you soon.<br\> Thank You" />
+		<Content HeaderText="ConatctServiceFailureText" DescriptionText="We failed to capture your request<br\> Could you please try after some time<br\> Thank You" />
+	</PageContent>
+	<PageContent id="NotificationText" Type='Object'>
+	<!-- CAB -->
+		<!-- Text Message -->
+		<Content HeaderText="CAB_CustomerServiceTextMessage" DescriptionText="Dear [@FULLNAME@], We would be very happy to serve your [@REQUESTTYPE@] - [@VEHICLE@] request on [@TRAVELDATE@] and we would confirm you the same in a while. Please feel to reach us on [@DOMAIN@] or [@CONTACTUSPHONE@]. Your reference number - [@TRAVELREFERENVENUMBER@]. Thank You, Dhyan Travels - we drive your dreams" />
+		<Content HeaderText="CAB_TravelServiceTextMessage" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request on [@TRAVELDATE@] from [@CAB_FROMPLACE@] to [@CAB_TOPLACE@] for [@FULLNAME@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<!-- Email -->
+		<Content HeaderText="CAB_TravelServiceEmailSubject" DescriptionText="[@REQUESTTYPE@] - [@VEHICLE@] for [@FULLNAME@] with reference number - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="CAB_TravelServiceEmailText" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request for [@TRIP_NUMBEROFDAYS@] days for [@FULLNAME@] to visit [@TRIP_PLACES@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="CAB_TravelServiceEmailTemplate" DescriptionText="contents/CAB_TravelServiceEmailTemplate.txt" />
+	
+	<!-- TRIP -->
+		<!-- Text Message -->
+		<Content HeaderText="TRIP_CustomerTripServiceTextMessage" DescriptionText="Dear [@FULLNAME@], We would be very happy to serve your [@REQUESTTYPE@] request for [@TRIP_NUMBEROFDAYS@] days and we would confirm you the same in a while. Please feel to reach us on [@DOMAIN@] or [@CONTACTUSPHONE@]. Your reference number - [@TRAVELREFERENVENUMBER@]. Thank You, Dhyan Travels - we drive your dreams" />
+		<Content HeaderText="TRIP_TravelServiceTextMessage" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request for [@TRIP_NUMBEROFDAYS@] days starting from [@TRAVELDATE@] for [@FULLNAME@] to visit [@TRIP_PLACES@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<!-- Email -->
+		<Content HeaderText="TRIP_TravelServiceEmailSubject" DescriptionText="[@REQUESTTYPE@] - [@VEHICLE@] for [@FULLNAME@] with reference number - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="TRIP_TravelServiceEmailText" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] - [@VEHICLE@] request for [@TRIP_NUMBEROFDAYS@] days starting from [@TRAVELDATE@] for [@FULLNAME@] to visit [@TRIP_PLACES@]. Reach him on [@PHONENUMBER@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="TRIP_TravelServiceEmailTemplate" DescriptionText="contents/TRIP_TravelServiceEmailTemplate.txt" />
+	
+	<!-- CONTACT -->
+		<!-- Text Message -->
+		<Content HeaderText="CONTACT_CustomerServiceTextMessage" DescriptionText="Dear [@FULLNAME@], We would be very happy to contact you and we do the same in a while. Please feel to reach us on [@DOMAIN@] or [@CONTACTUSPHONE@]. Your reference number - [@TRAVELREFERENVENUMBER@]. Thank You, Dhyan Travels - we drive your dreams" />
+		<Content HeaderText="CONTACT_TravelServiceTextMessage" DescriptionText="Hurry Admin, We have a [@REQUESTTYPE@] request from [@FULLNAME@]. Please reach them on [@PHONENUMBER@] or [@EMAILID@] with reference - [@TRAVELREFERENVENUMBER@]" />
+		<!-- Email -->
+		<Content HeaderText="CONTACT_CustomerServiceEmailTemplate" DescriptionText="contents/CONTACT_CustomerServiceEmailTemplate.txt" />
+		<Content HeaderText="CONTACT_CustomerServiceEmailSubject" DescriptionText="[@REQUESTTYPE@] request - Contact reference number - [@TRAVELREFERENVENUMBER@]" />
+		<Content HeaderText="CONTACT_TravelServiceEmailTemplate" DescriptionText="contents/CONTACT_TravelServiceEmailTemplate.txt" />
+		<Content HeaderText="CONTACT_TravelServiceEmailSubject" DescriptionText="[@REQUESTTYPE@] request from [@FULLNAME@] with reference number - [@TRAVELREFERENVENUMBER@]" />
+		
+	</PageContent>
+	<PageContent id="ApplicationConfiguration" Type='Object'>
+		<Content HeaderText="EmailStatus" DescriptionText="TRUE" />	
+		<Content HeaderText="TextMessageStatus" DescriptionText="TRUE" />
+	</PageContent>
+
+</PageContents>
+

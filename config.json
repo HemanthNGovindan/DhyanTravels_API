@@ -1,0 +1,58 @@
+{
+    "AppSetting": {
+        "AllowedOrgins": [
+            "http://www.DhyanTravels.com",
+            "http://localhost:4200",
+            "http://dhyantravels.com"
+        ],
+        "EmailConfiguration": {
+            "EmailService": "mail.dhyantravels.com",
+            "SourceEmailId": "services@dhyantravels.com",
+            "SouceEmailKey": "admin@Services",
+            "Status": "TRUE"
+        },
+        "MSGConfiguration": {
+            "ServiceEndpoint": "https://control.msg91.com/api/sendhttp.php?authkey=[@AUTHKEY@]&mobiles=[@PHONENUMBER@]&message=[@MESSAGE@]&sender=[@SENDER@]&route=[@ROUTE@]&country=[@COUNTRYCODE@]&response=json",
+            "[@AUTHKEY@]": "184134A9s0YGzLEEnl5a0e8de6",
+            "[@SENDER@]": "DTTRVL",
+            "[@ROUTE@]": "4",
+            "[@COUNTRYCODE@]": "91",
+            "[@PHONENUMBER@]": "",
+            "[@MESSAGE@]": "",
+            "Status": "TRUE"
+        },
+        "FBAppKeyConfiguration": {
+            "ServiceEndpoint": "https://graph.facebook.com/v2.10/oauth/access_token?client_id=[@CLIENTID@]&client_secret=[@CLIENTSECRET@]&grant_type=client_credentials",
+            "[@CLIENTID@]": "144872292822690",
+            "[@CLIENTSECRET@]": "a72e229c64758eb281ea6c5ce2f760b3",
+            "Status": "TRUE"
+        },
+        "FBPageAccessConfiguration": {
+            "ServiceEndpoint": "https://graph.facebook.com/v2.11/[@PAGEID@]?access_token=[@AUTHKEY@]&fields=posts&format=json&method=get&pretty=0&suppress_http_code=1",
+            "[@AUTHKEY@]": "",
+            "[@PAGEID@]": "794198280598747"
+        }
+    },
+    "ApplicationConstant": {
+        "ContentFilePath": "contents/ApplicationPageContent.xml",
+        "Status": {
+            "Failure": "Failure",
+            "Success": "Success",
+            "TRUE": "TRUE",
+            "FALSE": "FALSE"
+        },
+        "StatusCodes": {
+            "000": "000",
+            "001": "001",
+            "002": "002"
+        },
+        "NotificationType": {
+            "Email": "Email",
+            "TextMessage": "TextMessage"
+        },
+        "ContentType": {
+            "Array": "Array",
+            "Object": "Object"
+        }
+    }
+}
